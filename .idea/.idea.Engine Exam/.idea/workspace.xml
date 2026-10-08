@@ -10,7 +10,9 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28d91fe0-7542-4306-97fb-c3ae373b71ac" name="Changes" comment="" />
+    <list default="true" id="28d91fe0-7542-4306-97fb-c3ae373b71ac" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Engine Exam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Engine Exam/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
