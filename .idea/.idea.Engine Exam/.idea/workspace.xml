@@ -12,7 +12,12 @@
   <component name="ChangeListManager">
     <list default="true" id="28d91fe0-7542-4306-97fb-c3ae373b71ac" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Engine Exam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Engine Exam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRP.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,67 +27,72 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bill.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boll.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="2.0804904180665256E-211" />
-      <entry key="S2" value="3.5852474555666674E-53" />
-      <entry key="S5" value="1.5935357969730655E-21" />
-      <entry key="S10" value="5.647133368661704E-11" />
-      <entry key="S30" value="9.098247312014878E-4" />
-      <entry key="S60" value="0.16234247103578345" />
-      <entry key="M2" value="3.138316899244154" />
-      <entry key="M5" value="20.55701847152157" />
-      <entry key="M10" value="39.10376393231142" />
-      <entry key="M15" value="48.54014195117595" />
-      <entry key="M30" value="60.30897145702657" />
-      <entry key="H1" value="67.2468250417134" />
-      <entry key="H2" value="71.01565095929982" />
-      <entry key="H4" value="72.9801169549944" />
-      <entry key="D1" value="74.65943740708276" />
-      <entry key="W1" value="74.95125142686689" />
+      <entry key="MS100" value="6.942353167941903E-8" />
+      <entry key="MS500" value="0.037008487870426016" />
+      <entry key="S2" value="0.43861303062086304" />
+      <entry key="S5" value="0.7298733281548141" />
+      <entry key="S10" value="1.052097877884499" />
+      <entry key="S30" value="4.1029552717231805" />
+      <entry key="S60" value="13.506959297304231" />
+      <entry key="M2" value="35.135882295159426" />
+      <entry key="M5" value="84.05752096402018" />
+      <entry key="M10" value="140.9518332029787" />
+      <entry key="M15" value="179.56323070305163" />
+      <entry key="M30" value="241.84792504269538" />
+      <entry key="H1" value="288.0478822019163" />
+      <entry key="H2" value="316.68680809097975" />
+      <entry key="H4" value="332.7047122139702" />
+      <entry key="D1" value="347.023669200388" />
+      <entry key="W1" value="349.5724436358987" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.000000000027424" />
-      <entry key="S30" value="1.0004208629165066" />
-      <entry key="S60" value="1.05624611967213" />
-      <entry key="M2" value="1.9034002288188092" />
-      <entry key="M5" value="6.30590943548771" />
-      <entry key="M10" value="10.733236361078436" />
-      <entry key="M15" value="12.93640853552051" />
-      <entry key="M30" value="15.651405139078229" />
-      <entry key="H1" value="17.23781296951218" />
-      <entry key="H2" value="18.09574151505418" />
-      <entry key="H4" value="18.541923232379766" />
-      <entry key="D1" value="18.922814212219627" />
-      <entry key="W1" value="18.988952715849774" />
+      <entry key="MS100" value="1.001025113949157" />
+      <entry key="MS500" value="1.2556449486953358" />
+      <entry key="S2" value="2.0902490843278874" />
+      <entry key="S5" value="3.2942924856501388" />
+      <entry key="S10" value="4.573441297700187" />
+      <entry key="S30" value="7.293828603481007" />
+      <entry key="S60" value="10.483281559804938" />
+      <entry key="M2" value="15.645810345161234" />
+      <entry key="M5" value="26.658360521944502" />
+      <entry key="M10" value="39.013963330131304" />
+      <entry key="M15" value="47.37730756686473" />
+      <entry key="M30" value="60.99760264396259" />
+      <entry key="H1" value="71.20393850265192" />
+      <entry key="H2" value="77.5676928755872" />
+      <entry key="H4" value="81.13762550824528" />
+      <entry key="D1" value="84.33478209117004" />
+      <entry key="W1" value="84.9044264441689" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.005262631159631603" />
-      <entry key="MS500" value="0.3501390802218012" />
-      <entry key="S2" value="0.769236966660005" />
-      <entry key="S5" value="0.9003763079179393" />
-      <entry key="S10" value="0.9488816090928454" />
-      <entry key="S30" value="0.9839817889349644" />
-      <entry key="S60" value="1.2088700367855039" />
-      <entry key="M2" value="5.028400821239739" />
-      <entry key="M5" value="26.839423415889076" />
-      <entry key="M10" value="49.81598506432498" />
-      <entry key="M15" value="61.45945166861799" />
-      <entry key="M30" value="75.94991879402681" />
-      <entry key="H1" value="84.4788504026862" />
-      <entry key="H2" value="89.10834743575224" />
-      <entry key="H4" value="91.52047832092475" />
-      <entry key="D1" value="93.5819857081524" />
-      <entry key="W1" value="93.9401660164701" />
+      <entry key="MS100" value="0.0043126811114607535" />
+      <entry key="MS500" value="0.47937092356433353" />
+      <entry key="S2" value="1.9238520844548306" />
+      <entry key="S5" value="3.5543041754912545" />
+      <entry key="S10" value="5.272998926443806" />
+      <entry key="S30" value="11.188447990944436" />
+      <entry key="S60" value="23.825665039924694" />
+      <entry key="M2" value="50.64471082914264" />
+      <entry key="M5" value="110.6145961656883" />
+      <entry key="M10" value="179.8898778211119" />
+      <entry key="M15" value="226.87865741637015" />
+      <entry key="M30" value="302.8054528784318" />
+      <entry key="H1" value="359.2283662568302" />
+      <entry key="H2" value="394.241708593732" />
+      <entry key="H4" value="413.8356427376733" />
+      <entry key="D1" value="431.3572908552973" />
+      <entry key="W1" value="434.4767031680081" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -117,6 +127,16 @@
   }
 }]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Build\Game Engine Exam.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\gompr\OneDrive\Desktop\Engine Exam\Build" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.3.5f2\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;C:\Users\gompr\OneDrive\Desktop\Engine Exam&quot; -debugCodeOptimization" />

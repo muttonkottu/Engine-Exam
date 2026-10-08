@@ -1,26 +1,40 @@
+using System;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] protected float movementSpeed;
-    [SerializeField] protected float health;
-    protected Transform playerTransform;
-    
-    public virtual void Init(Transform player)
+    [SerializeField] private GameObject bill;
+    [SerializeField] private GameObject boll;
+    [SerializeField] private Transform playerTransform;
+    [SerializeField] private Transform enemyTransform;
+
+    private void Start()
     {
-        playerTransform = player;
-        GameManager.Instance.AddTotalEnemy();
+        Bullet bill1 = CreateBullet("bill");
+        Bullet boll1 = CreateBullet("boll");
+        
+        bill1.Damage();
+        boll1.Damage();
+        
+        bill1.PrintEnemyDefense();
+        boll1.PrintEnemyDefense();
     }
-
-    public abstract void Attack();
-
-    public virtual void TakeDamage(float damage)
+    
+    private Bullet CreateBullet(string nam)
     {
-        health -= damage;
-        if (health <= 0)
+        if (nam == "bill")
         {
-            GameManager.Instance.EnemyDefeated();
-            Destroy(gameObject);
+            GameObject bullet = Instantiate(bill, enemyTransform);
+            var bulletComponent = bullet.GetComponent<Bullet>();
+            bulletComponent.Init(playerTransform);
+            return bulletComponent;
+        }
+        else
+        {
+            GameObject bullet = Instantiate(boll, enemyTransform);
+            var bulletComponent = bullet.GetComponent<Bullet>();
+            bulletComponent.Init(playerTransform);
+            return bulletComponent;
         }
     }
 }
